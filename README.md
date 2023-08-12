@@ -1,4 +1,4 @@
-## Alterações para ser realizadas: 
+## Alterações para ser realizadas no Godot para funcionamento do projeto: 
 Window 
 Viewport Widht 320
 Viewport Height 180

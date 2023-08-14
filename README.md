@@ -1,11 +1,11 @@
-<h1>
-	<img src="" />
+<h1 align="center">
+	<img src="./imgREADME/editar_goodfarm.png" width="100">
 	<p> 🐥 Uma fazenda do seu jeito 🐥 </p>
 </h1>
 
 ### 📌 Tecnologia utilizada para desenvolver o jogo:
 <p>Godot</p>
-<img src="icon.svg">
+<img src="icon.svg" width="100">
 
 ### ⚙️ Versão do Godot utilizada:
 Versão 4.1.1

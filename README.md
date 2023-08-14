@@ -1,6 +1,7 @@
 <h1 align="center">
 	<img src="./imgREADME/editar_goodfarm.png" width="100" />
 	<p> 🐥 Uma fazenda do seu jeito 🐥 </p>
+	<img src="./imgREADME/fasedojogo.webm">
 </h1>
 
 ### 📌 Tecnologia utilizada para desenvolver o jogo:

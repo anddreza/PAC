@@ -1,16 +1,20 @@
 <h1>
-	<img src="editar_goodfarm.png">
+	<img src="" />
 	<p> 🐥 Uma fazenda do seu jeito 🐥 </p>
 </h1>
+
+### 📌 Tecnologia utilizada para desenvolver o jogo:
+<p>Godot</p>
+<img src="icon.svg">
 
 ### ⚙️ Versão do Godot utilizada:
 Versão 4.1.1
 
-### 📌 About
+## 📌 About
 - O jogo tem como propósito exercitar a lógica através dos itens dispostos na fazenda, quando acertado as questões será liberado novas funcionalidades, quando errado a plantação será atacada por pragas. 
 
 
-### Configurações necessárias para o jogo rodar na Godot: 
+### 🍄 Configurações necessárias para o jogo rodar na Godot: 
 #### 🥦 Alterações para ser realizadas no Godot para funcionamento do projeto: 🥦 
 
 1. Window:  
@@ -26,6 +30,6 @@ Versão 4.1.1
 3. Ir até a abinha Node
 4. Script (nome do script.gd)
 
-🥕 Assets usados gratuitamente: https://gif-superretroworld.itch.io/farming-pack
+#### 🥕 Assets usados gratuitamente: https://gif-superretroworld.itch.io/farming-pack
 
-🧅 Slogan do jogo: https://pt.freelogodesign.org/manager
+#### 🧅 Slogan do jogo: https://pt.freelogodesign.org/manager

@@ -3,10 +3,10 @@
 	<p> 🐥 Uma fazenda do seu jeito 🐥 </p>
 </h1>
 
-### 📌 Tecnologia utilizada para desenvolver o jogo:
+#### 📌 Tecnologia utilizada para desenvolver o jogo:
 <p>Godot</p>
 
-### ⚙️ Versão do Godot utilizada:
+#### ⚙️ Versão do Godot utilizada:
 Versão 4.1.1
 
 ## 📌 About

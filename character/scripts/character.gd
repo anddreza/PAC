@@ -25,4 +25,4 @@ func _move() -> void:
 	velocity.y = lerp(velocity.y, _direction.normalized().y * _move_speed, _friction)
 	
 	velocity = _direction.normalized() * _move_speed
-	
+	velocity = _direction.normalized() * _move_speed

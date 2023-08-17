@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1692309202
+README.md::TextFile::-1::1692031716::0::1::::<><>::
+::res://character/::1691875646
+::res://character/assets/::1692304911
+Terrain (16x16).png::CompressedTexture2D::540632918558070671::1569851692::1692301385::1::::<><>::
+_srw_free_farm_character_walk_frame16x20.png::CompressedTexture2D::5710026430506241103::1691873359::1691874424::1::::<><>::
+_srw_free_farm_character_walk_frame32x32.png::CompressedTexture2D::9167255684795711284::1691873359::1691874517::1::::<><>::
+_srw_tileset_0.png::CompressedTexture2D::2133233335522349273::1691873359::1692303752::1::::<><>::
+::res://character/scenes/::1692306343
+character.tscn::PackedScene::5538852745555283027::1692306343::0::1::::<><>::res://character/scripts/character.gd<>uid://cnl8kibcgdfb8::::res://character/assets/_srw_free_farm_character_walk_frame16x20.png<>uid://hx5e63g4c3hr::::res://character/assets/Terrain (16x16).png<>uid://cel7bmq2cix7r::::res://character/assets/_srw_farming_A2.png<>uid://5nmbn245m762::::res://character/assets/_srw_tileset_0.png
+::res://character/scripts/::1691882501
+character.gd::GDScript::-1::1691882501::0::1::::<>CharacterBody2D<>::
+::res://imgREADME/::1692031590
+editar_goodfarm.png::CompressedTexture2D::6580445543341929854::1692028284::1692031461::1::::<><>::
+icon.svg::CompressedTexture2D::7211890476647286253::1691873768::1692031461::1::::<><>::

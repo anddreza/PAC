@@ -17,10 +17,12 @@ Versão 4.1.1
 #### 🥦 Alterações para ser realizadas no Godot para funcionamento do projeto: 🥦 
 
 1. Window:  
-1.1 Viewport Widht 320;
+1.1 Viewport Widht 320
+
 1.2 Viewport Height 180
 
 1.3 Window Widht Override 1280
+
 1.4 Window Height Override 720
 
 #### 🌽 Inserir o script: 🌽
@@ -32,3 +34,6 @@ Versão 4.1.1
 #### 🥕 Assets usados gratuitamente: https://gif-superretroworld.itch.io/farming-pack
 
 #### 🧅 Slogan do jogo: https://pt.freelogodesign.org/manager
+
+
+### 🥬 GDD usado de exemplo: https://pt.slideshare.net/marcelinhoscf/exemplo-de-gdd

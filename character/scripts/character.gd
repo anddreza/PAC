@@ -4,7 +4,8 @@ extends CharacterBody2D
 @export var _move_speed: float = 64.0
 
 @export var _friction: float = 0.2
-@export var _acceleration: float = 0.4
+@export var _acceleration: float = 0.2
+## 
 
 func _physics_process(_delta: float) -> void:
 	_move()
@@ -24,5 +25,5 @@ func _move() -> void:
 	velocity.x = lerp(velocity.x, _direction.normalized().x * _move_speed, _friction)
 	velocity.y = lerp(velocity.y, _direction.normalized().y * _move_speed, _friction)
 	
-	velocity = _direction.normalized() * _move_speed
-	velocity = _direction.normalized() * _move_speed
+
+	

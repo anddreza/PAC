@@ -275,3 +275,5 @@ parameters/idle/blend_position = Vector2(0, 0)
 [node name="Collision" type="CollisionShape2D" parent="AttackArea"]
 shape = SubResource("RectangleShape2D_7dti7")
 disabled = true
+
+[node name="Camera" type="Camera2D" parent="."]

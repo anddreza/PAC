@@ -53,5 +53,6 @@ move_down={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 textures/stretch/mode="disabled"
 textures/size/window_height_override=0

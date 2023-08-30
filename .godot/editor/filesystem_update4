@@ -2,3 +2,4 @@ res://character/scenes/character.tscn
 res://terrain/scenes/terrain.tscn
 res://levels/scenes/test_level.tscn
 res://terrain/scenes/objects_terrain.tscn
+res://character/scripts/character.gd

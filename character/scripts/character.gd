@@ -3,7 +3,7 @@ extends CharacterBody2D
 var _state_machine
 
 @export_category("Variables")
-@export var _move_speed: float = 10.0
+@export var _move_speed: float = 100.0
 
 @export var _friction: float = 0.2
 @export var _acceleration: float = 0.1

@@ -28,3 +28,4 @@ Versão 4.1.1
 
 #### 🥬 GDD usado de exemplo: https://pt.slideshare.net/marcelinhoscf/exemplo-de-gdd
 
+### Possível assets para crescimento da frutas: https://s-a-t-u-r-n.itch.io/2d-farm-game-kit

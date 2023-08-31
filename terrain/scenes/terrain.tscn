@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://k7ymfw05e02o"]
+[gd_scene load_steps=14 format=3 uid="uid://k7ymfw05e02o"]
 
 [ext_resource type="Texture2D" uid="uid://jd5sgk8px04w" path="res://terrain/assets/base_terrain/grass.png" id="1_chshg"]
 [ext_resource type="Texture2D" uid="uid://cfe5xxlargy3h" path="res://terrain/assets/base_terrain/plains.png" id="2_fkjvy"]
 [ext_resource type="Texture2D" uid="uid://dxxe8w1uvbui4" path="res://terrain/assets/base_terrain/decor_16x16.png" id="3_3hihq"]
 [ext_resource type="Texture2D" uid="uid://b2nxkrunbulak" path="res://terrain/assets/fences.png" id="4_kbwew"]
 [ext_resource type="Texture2D" uid="uid://0s4firfd700f" path="res://terrain/assets/_srw_tileset_0.png" id="5_s6xxe"]
+[ext_resource type="Texture2D" uid="uid://cclgm0y5dewgf" path="res://terrain/assets/animals/AnimalPack.png" id="6_ev7ur"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ck671"]
 resource_name = "grass"
@@ -5935,6 +5936,58 @@ texture = ExtResource("5_s6xxe")
 8:12/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 8:12/0/physics_layer_0/angular_velocity = 0.0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eecm3"]
+texture = ExtResource("6_ev7ur")
+margins = Vector2i(5, 0)
+15:1/0 = 0
+15:1/0/terrain_set = 0
+15:1/0/terrain = 4
+15:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+15:1/0/physics_layer_0/angular_velocity = 0.0
+15:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+15:1/0/terrains_peering_bit/right_side = 4
+15:1/0/terrains_peering_bit/bottom_side = 4
+15:1/0/terrains_peering_bit/bottom_left_corner = 4
+15:1/0/terrains_peering_bit/left_side = 4
+15:1/0/terrains_peering_bit/top_left_corner = 4
+15:1/0/terrains_peering_bit/top_side = 4
+15:1/0/terrains_peering_bit/top_right_corner = 4
+15:0/0 = 0
+15:0/0/terrain_set = 0
+15:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+15:0/0/physics_layer_0/angular_velocity = 0.0
+15:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -0.707107, -8, -0.707107, 6.45235, -8, 5.39169)
+15:0/0/terrains_peering_bit/bottom_right_corner = 4
+16:0/0 = 0
+16:0/0/terrain_set = 0
+16:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+16:0/0/physics_layer_0/angular_velocity = 0.0
+16:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.41421, 0.441941, 8, -1.85616, 8, 8, -8, 8)
+14:1/0 = 0
+14:1/0/terrain_set = 0
+14:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+14:1/0/physics_layer_0/angular_velocity = 0.0
+14:1/0/terrains_peering_bit/right_side = 4
+14:1/0/terrains_peering_bit/top_right_corner = 4
+7:3/0 = 0
+7:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+7:3/0/physics_layer_0/angular_velocity = 0.0
+6:2/0 = 0
+6:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+6:2/0/physics_layer_0/angular_velocity = 0.0
+6:3/0 = 0
+6:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+6:3/0/physics_layer_0/angular_velocity = 0.0
+7:2/0 = 0
+7:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+7:2/0/physics_layer_0/angular_velocity = 0.0
+8:2/0 = 0
+8:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+8:2/0/physics_layer_0/angular_velocity = 0.0
+8:3/0 = 0
+8:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+8:3/0/physics_layer_0/angular_velocity = 0.0
+
 [sub_resource type="TileSet" id="TileSet_3jkn4"]
 physics_layer_0/collision_layer = 1
 terrain_set_0/mode = 0
@@ -5946,11 +5999,14 @@ terrain_set_0/terrain_2/name = "fences"
 terrain_set_0/terrain_2/color = Color(0, 0, 0, 1)
 terrain_set_0/terrain_3/name = "placas"
 terrain_set_0/terrain_3/color = Color(0.0352941, 0.294118, 0.188235, 1)
+terrain_set_0/terrain_4/name = "animals"
+terrain_set_0/terrain_4/color = Color(0.737255, 0.0941176, 0.584314, 1)
 sources/0 = SubResource("TileSetAtlasSource_ck671")
 sources/1 = SubResource("TileSetAtlasSource_fhimy")
 sources/2 = SubResource("TileSetAtlasSource_pjnbt")
 sources/3 = SubResource("TileSetAtlasSource_aucub")
 sources/4 = SubResource("TileSetAtlasSource_vtro7")
+sources/5 = SubResource("TileSetAtlasSource_eecm3")
 
 [node name="Terrain" type="TileMap"]
 tile_set = SubResource("TileSet_3jkn4")
@@ -5977,3 +6033,10 @@ layer_3/y_sort_enabled = false
 layer_3/y_sort_origin = 0
 layer_3/z_index = 0
 layer_3/tile_data = PackedInt32Array()
+layer_4/name = "animals_terrain"
+layer_4/enabled = true
+layer_4/modulate = Color(1, 1, 1, 1)
+layer_4/y_sort_enabled = false
+layer_4/y_sort_origin = 0
+layer_4/z_index = 0
+layer_4/tile_data = PackedInt32Array()

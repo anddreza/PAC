@@ -1,14 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://hb035t78whkg"]
-
-[ext_resource type="Texture2D" uid="uid://d3oqqyahu72dt" path="res://character/assets/mystic_woods_free_2.1/sprites/tilesets/grass.png" id="1_0ccmc"]
-[ext_resource type="Texture2D" uid="uid://din4bmy4p0j8i" path="res://character/assets/mystic_woods_free_2.1/sprites/tilesets/plains.png" id="2_uva1t"]
+[gd_scene load_steps=4 format=3 uid="uid://hb035t78whkg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pe1rv"]
-texture = ExtResource("1_0ccmc")
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3r67k"]
-texture = ExtResource("2_uva1t")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0

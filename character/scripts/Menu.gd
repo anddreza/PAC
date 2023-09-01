@@ -5,4 +5,4 @@ func _on_quit_button_pressed():
 
 
 func _on_play_button_pressed():
-	get_tree().change_scene_to_file("res://character/scenes/character.tscn")
+	get_tree().change_scene_to_file("res://levels/scenes/test_level.tscn")

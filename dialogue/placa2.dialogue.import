@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://dv7jq36fk71gl"
+path="res://.godot/imported/placa2.dialogue-e3bbdb45b53c9acab6c4b7b32b31d2d7.tres"
+
+[deps]
+
+source_file="res://dialogue/placa2.dialogue"
+dest_files=["res://.godot/imported/placa2.dialogue-e3bbdb45b53c9acab6c4b7b32b31d2d7.tres"]
+
+[params]
+
+defaults=true

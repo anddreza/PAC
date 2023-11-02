@@ -1,0 +1,48 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_2iqwr"]
+
+[resource]
+script = ExtResource("1_2iqwr")
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Game")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": "title"
+},
+"3": {
+"character": "Game",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"tags": PackedStringArray(),
+"text": "Olá, bem vindo ao Good Farm",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Olá, bem vindo ao Good Farm",
+"type": "dialogue"
+},
+"4": {
+"character": "Game",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "6",
+"tags": PackedStringArray(),
+"text": "Seu objetivo é responder as perguntas que estão ao redor do mapa",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Seu objetivo é responder as perguntas que estão ao redor do mapa",
+"type": "dialogue"
+},
+"6": {
+"id": "6",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+}
+}
+metadata/dialogue_manager_version = "2.25.2"

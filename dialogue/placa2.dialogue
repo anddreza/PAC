@@ -1,0 +1,12 @@
+~ start 
+
+Game:  A fórmula de Bhaskara é x = (-b ± √(b² – 4ac)) / (2a)
+- Sim. 
+	Game: Você acertou! 
+	=> END
+- Não.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. 
+			=> END
+=> END

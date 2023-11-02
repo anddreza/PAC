@@ -1,0 +1,10 @@
+~ start 
+
+Game:  Você acha que o Brasil tem 27 estados brasileiros?
+- Sim. 
+	Game: Você acertou!
+- Não.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. => END
+=> END

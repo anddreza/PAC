@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://dujyfwof1ia7b"]
+
+[ext_resource type="Texture2D" uid="uid://b0bknxwn2t4ub" path="res://character/assets/AnimalPack.png" id="1_jgc7g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vwtyr"]
+size = Vector2(29, 10)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4wtos"]
+radius = 16.0
+
+[node name="Character" type="CharacterBody2D"]
+
+[node name="Texture" type="Sprite2D" parent="."]
+position = Vector2(12, -34)
+scale = Vector2(2.03774, 2.176)
+texture = ExtResource("1_jgc7g")
+hframes = 14
+vframes = 10
+frame = 34
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+visible = false
+show_behind_parent = true
+position = Vector2(-1.5, -5)
+shape = SubResource("RectangleShape2D_vwtyr")
+
+[node name="Camera" type="Camera2D" parent="."]
+
+[node name="Direction" type="Marker2D" parent="."]
+
+[node name="ActionableFinder" type="Area2D" parent="Direction"]
+collision_layer = 0
+collision_mask = 48
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Direction/ActionableFinder"]
+shape = SubResource("CircleShape2D_4wtos")
+
+[connection signal="body_entered" from="Direction/ActionableFinder" to="." method="_on_actionable_finder_body_entered"]
+[connection signal="body_exited" from="Direction/ActionableFinder" to="." method="_on_actionable_finder_body_exited"]

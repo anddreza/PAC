@@ -1,1 +1,4 @@
+res://character/scenes/chicken.tscn
 res://management/ActionablePlaca.gd
+res://levels/scenes/test_level.tscn
+res://character/scenes/Pig.tscn

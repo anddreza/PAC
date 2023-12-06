@@ -10,7 +10,7 @@ var placa_in_range = false
 
 @export_category("Objects")
 @export var _animation_tree: AnimationTree = null
-@onready var actionable_finder: Area2D = $Direction/ActionableFinder
+@onready var actionable_finder: Area2D = $Direction/ActionableFinder #referencia ao código de acionar quando estiver próximo
 
 ##primeira função a ser executada no objeto
 func _ready() -> void:
@@ -18,12 +18,14 @@ func _ready() -> void:
 	_state_machine = _animation_tree["parameters/playback"]
 	
 func _physics_process(_delta: float) -> void:
-	if Input.is_action_pressed("ui_accept"):
+	#
+	if Input.is_action_just_pressed("ui_accept"):
 		var actionables = actionable_finder.get_overlapping_areas()
 		if actionables.size() > 0:
 			actionables[0].action()
 			return
 	_move()
+	
 	_animate()
 	move_and_slide()
 	## ações para o personagem andar

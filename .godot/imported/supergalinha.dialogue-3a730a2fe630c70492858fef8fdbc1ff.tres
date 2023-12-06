@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_p1mn2"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_b82dv"]
 
 [resource]
-script = ExtResource("1_p1mn2")
+script = ExtResource("1_b82dv")
 titles = {
 "start": "3"
 }
@@ -23,133 +23,110 @@ lines = {
 "next_id": "11",
 "parent_id": "9",
 "tags": PackedStringArray(),
-"text": "Você errou, quer tentar novamente?",
+"text": "Você acertou! Ocupando 3,35% da superfície total planetária com uma área total de 17.098.246 quilômetros quadrados (km²).",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Você errou, quer tentar novamente?",
+"translation_key": "Você acertou! Ocupando 3,35% da superfície total planetária com uma área total de 17.098.246 quilômetros quadrados (km²).",
 "type": "dialogue"
 },
 "11": {
 "id": "11",
-"next_id": "3",
-"next_id_after": "13",
+"is_snippet": false,
+"next_id": "end",
 "parent_id": "9",
-"responses": PackedStringArray("11", "12"),
-"tags": PackedStringArray(),
-"text": "Sim.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Sim.",
-"type": "response"
+"type": "goto"
 },
 "12": {
 "id": "12",
-"next_id": "end",
-"next_id_after": "13",
-"parent_id": "11",
+"next_id": "13",
+"next_id_after": "20",
 "tags": PackedStringArray(),
-"text": "Não.",
+"text": "C)Estados Unidos.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Não.",
+"translation_key": "C)Estados Unidos.",
 "type": "response"
 },
 "13": {
+"character": "Game",
+"character_replacements": Array[Dictionary]([]),
 "id": "13",
-"is_snippet": false,
-"next_id": "end",
-"parent_id": "11",
-"type": "goto"
+"next_id": "14",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Você errou, quer tentar novamente?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Você errou, quer tentar novamente?",
+"type": "dialogue"
 },
 "14": {
 "id": "14",
-"next_id": "15",
-"next_id_after": "22",
+"next_id": "3",
+"next_id_after": "20",
+"parent_id": "12",
+"responses": PackedStringArray("14", "15"),
 "tags": PackedStringArray(),
-"text": "C)26 Estados.",
+"text": "Sim.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "C)26 Estados.",
+"translation_key": "Sim.",
 "type": "response"
 },
 "15": {
-"character": "Game",
-"character_replacements": Array[Dictionary]([]),
 "id": "15",
-"next_id": "16",
+"next_id": "end!",
+"next_id_after": "20",
 "parent_id": "14",
 "tags": PackedStringArray(),
-"text": "Você errou, quer tentar novamente?",
+"text": "Não.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Você errou, quer tentar novamente?",
-"type": "dialogue"
+"translation_key": "Não.",
+"type": "response"
 },
 "16": {
 "id": "16",
-"next_id": "3",
-"next_id_after": "22",
-"parent_id": "14",
-"responses": PackedStringArray("16", "17"),
+"next_id": "17",
+"next_id_after": "20",
 "tags": PackedStringArray(),
-"text": "Sim.",
+"text": "D)China.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Sim.",
+"translation_key": "D)China.",
 "type": "response"
 },
 "17": {
-"id": "17",
-"next_id": "end!",
-"next_id_after": "22",
-"parent_id": "16",
-"tags": PackedStringArray(),
-"text": "Não.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Não.",
-"type": "response"
-},
-"18": {
-"id": "18",
-"next_id": "19",
-"next_id_after": "22",
-"tags": PackedStringArray(),
-"text": "D)28 Estados.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "D)28 Estados.",
-"type": "response"
-},
-"19": {
 "character": "Game",
 "character_replacements": Array[Dictionary]([]),
-"id": "19",
-"next_id": "20",
-"parent_id": "18",
+"id": "17",
+"next_id": "18",
+"parent_id": "16",
 "tags": PackedStringArray(),
 "text": "Você errou, quer tentar novamente?",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Você errou, quer tentar novamente?",
 "type": "dialogue"
 },
-"20": {
-"id": "20",
+"18": {
+"id": "18",
 "next_id": "3",
-"next_id_after": "22",
-"parent_id": "18",
-"responses": PackedStringArray("20", "21"),
+"next_id_after": "20",
+"parent_id": "16",
+"responses": PackedStringArray("18", "19"),
 "tags": PackedStringArray(),
 "text": "Sim.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Sim.",
 "type": "response"
 },
-"21": {
-"id": "21",
+"19": {
+"id": "19",
 "next_id": "end",
-"next_id_after": "22",
-"parent_id": "20",
+"next_id_after": "20",
+"parent_id": "18",
 "tags": PackedStringArray(),
 "text": "Não.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Não.",
 "type": "response"
 },
-"22": {
-"id": "22",
+"20": {
+"id": "20",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
@@ -160,20 +137,20 @@ lines = {
 "id": "3",
 "next_id": "4",
 "tags": PackedStringArray(),
-"text": "Quantos estados o Brasil tem?",
+"text": "Qual é o maior país do mundo?",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Quantos estados o Brasil tem?",
+"translation_key": "Qual é o maior país do mundo?",
 "type": "dialogue"
 },
 "4": {
 "id": "4",
 "next_id": "5",
-"next_id_after": "22",
-"responses": PackedStringArray("4", "9", "14", "18"),
+"next_id_after": "20",
+"responses": PackedStringArray("4", "9", "12", "16"),
 "tags": PackedStringArray(),
-"text": "A) 27 Estados.",
+"text": "A) Brasil.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "A) 27 Estados.",
+"translation_key": "A) Brasil.",
 "type": "response"
 },
 "5": {
@@ -183,50 +160,49 @@ lines = {
 "next_id": "6",
 "parent_id": "4",
 "tags": PackedStringArray(),
-"text": "Você acertou!",
+"text": "Você errou, quer tentar novamente?",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Você acertou!",
+"translation_key": "Você errou, quer tentar novamente?",
 "type": "dialogue"
 },
 "6": {
-"character": "Game",
-"character_replacements": Array[Dictionary]([]),
 "id": "6",
-"next_id": "7",
+"next_id": "3",
+"next_id_after": "8",
 "parent_id": "4",
+"responses": PackedStringArray("6", "7"),
 "tags": PackedStringArray(),
-"text": "Eles são Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul,",
+"text": "Sim.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Eles são Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul,",
-"type": "dialogue"
+"translation_key": "Sim.",
+"type": "response"
 },
 "7": {
-"character": "",
-"character_replacements": Array[Dictionary]([]),
 "id": "7",
-"next_id": "8",
-"parent_id": "4",
+"next_id": "end",
+"next_id_after": "8",
+"parent_id": "6",
 "tags": PackedStringArray(),
-"text": "Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins",
+"text": "Não.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins",
-"type": "dialogue"
+"translation_key": "Não.",
+"type": "response"
 },
 "8": {
 "id": "8",
 "is_snippet": false,
-"next_id": "end!",
-"parent_id": "4",
+"next_id": "end",
+"parent_id": "6",
 "type": "goto"
 },
 "9": {
 "id": "9",
 "next_id": "10",
-"next_id_after": "22",
+"next_id_after": "20",
 "tags": PackedStringArray(),
-"text": "B)25 Estados.",
+"text": "B)Rússia.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "B)25 Estados.",
+"translation_key": "B)Rússia.",
 "type": "response"
 }
 }

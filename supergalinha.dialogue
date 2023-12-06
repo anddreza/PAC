@@ -1,0 +1,21 @@
+~ start 
+
+Game:  Qual é o maior país do mundo?
+- A) Brasil.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. => END
+		=> END
+- B)Rússia.
+		Game: Você acertou! 
+		Game: Ocupando 3,35% da superfície total planetária com uma área total de 17.098.246 quilômetros quadrados (km²).
+		=> END
+- C)Estados Unidos.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. => END!
+- D)China.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. => END
+=> END

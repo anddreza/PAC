@@ -97,7 +97,6 @@ fit_content = true
 scroll_active = false
 
 [node name="DialogueLabel" parent="Balloon/Dialogue/VBoxContainer" instance=ExtResource("2_a8ve6")]
-unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 text = "Dialogue..."
@@ -109,15 +108,14 @@ anchor_left = 0.226
 anchor_top = 0.166
 anchor_right = 0.961
 anchor_bottom = 0.168
-offset_left = -20.28
-offset_top = 55.776
+offset_left = -33.28
+offset_top = 54.776
 offset_right = -18.08
-offset_bottom = 123.448
+offset_bottom = 121.448
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="ResponsesMenu" type="VBoxContainer" parent="Balloon/Responses"]
-unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 8
 theme_override_constants/separation = 2

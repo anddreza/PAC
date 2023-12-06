@@ -1,9 +1,21 @@
 ~ start 
 
-Game:  Você acha que o Brasil tem 27 estados brasileiros?
-- Sim. 
-	Game: Você acertou!
-- Não.
+Game:  Quantos estados o Brasil tem?
+- A) 27 Estados.
+	Game: Você acertou! 
+	Game: Eles são Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espírito Santo, Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, 
+	Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe, Tocantins 
+	=> END!
+- B)25 Estados.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. => END
+		=> END
+- C)26 Estados.
+		Game: Você errou, quer tentar novamente?
+		- Sim. => start
+		- Não. => END!
+- D)28 Estados.
 		Game: Você errou, quer tentar novamente?
 		- Sim. => start
 		- Não. => END

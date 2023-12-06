@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_10"
+type="Resource"
+uid="uid://c48wdj2e3kijo"
+path="res://.godot/imported/supergalinha.dialogue-3a730a2fe630c70492858fef8fdbc1ff.tres"
+
+[deps]
+
+source_file="res://dialogue/supergalinha.dialogue"
+dest_files=["res://.godot/imported/supergalinha.dialogue-3a730a2fe630c70492858fef8fdbc1ff.tres"]
+
+[params]
+
+defaults=true
